@@ -10,7 +10,7 @@ const Hero = () => {
           <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. <br/> In deleniti eaque aut repudiandae et a id nisi.</p>
           <div style={{gap:"30px" , display:"flex", justifyContent:"center"}}>
             <button className="btn btn-primary">Get Started</button>
-            <div>This is John&apos;s car</div>
+            <div>Let's Get Started</div>
           </div>
 
         </div>
