@@ -8,7 +8,7 @@ const Hero = () => {
         <div>
           <h1 className="text-5xl font-bold">Welcome!</h1>
           <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. <br/> In deleniti eaque aut repudiandae et a id nisi.</p>
-          <div className="" style={{gap:"30px" , display:"flex", justifyContent:"center"}}>
+          <div style={{gap:"30px" , display:"flex", justifyContent:"center"}}>
             <button className="btn btn-primary">Get Started</button>
             <button className="btn btn-ghost btn-outline btn-warning">Let's Get Started</button>
           </div>
@@ -22,4 +22,3 @@ const Hero = () => {
   };
   
   export default Hero;
-  
