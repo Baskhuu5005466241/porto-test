@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Cards = () => {
   return (
@@ -14,21 +15,36 @@ const Cards = () => {
         <div className="grid grid-cols-3 gap-x-8">
             <div className="relative">
                 <div className="w-140 h-140 bg-black">
-                    <img className="" src="https://i.pinimg.com/564x/4f/12/af/4f12af20dae5179cf60a5057da761473.jpg" alt="Graphic Design"/>
+                    <Image
+                    src="/https://i.pinimg.com/564x/4f/12/af/4f12af20dae5179cf60a5057da761473.jpg"
+                    width={500}
+                    height={500}
+                    alt="Picture of the author"
+                    />
                     <h2 className="font-semibold text-lg mb-2 text-white">Graphic Design</h2>
                     <p className="font-lato text-secondary leading-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, debitis?</p>
                 </div>
             </div>
             <div className="relative">
                 <div className="w-140 h-140 bg-black">
-                    <img className="" src="https://i.pinimg.com/564x/4f/12/af/4f12af20dae5179cf60a5057da761473.jpg" alt="Web Development"/>
+                <Image
+      src="/https://i.pinimg.com/564x/4f/12/af/4f12af20dae5179cf60a5057da761473.jpg"
+      width={500}
+      height={500}
+      alt="Picture of the author"
+    />
                     <h2 className="font-semibold text-lg mb-2 text-white">Web Development</h2>
                     <p className="font-lato text-secondary leading-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, debitis?</p>
                 </div>
             </div>
             <div className="relative">
                 <div className="w-140 h-140 bg-black">
-                    <img className="" src="https://i.pinimg.com/564x/4f/12/af/4f12af20dae5179cf60a5057da761473.jpg" alt="Content Writing"/>
+                <Image
+      src="/https://i.pinimg.com/564x/4f/12/af/4f12af20dae5179cf60a5057da761473.jpg"
+      width={500}
+      height={500}
+      alt="Picture of the author"
+    />
                     <h2 className="font-semibold text-lg mb-2 text-white">App Development</h2>
                     <p className="font-lato text-secondary leading-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, debitis?</p>
                 </div>
